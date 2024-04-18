@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=League+Spartan:wght@100..900&family=Lugrasimo&family=Sniglet:wght@400;800&display=swap');
+
+body{
+    color: rgb(238, 231, 231);
+    background-image: url(..//imagini/photo1713471251.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border: 1px solid gray;
+    padding: 10px;
+
+}
+
+.transparent-border {
+    position: relative; 
+}
+
+.transparent-border::before {
+
+    content: '';
+    position: absolute;
+    top: 2px; 
+    left: 2px; 
+    right: 2px; 
+    bottom: 2px; 
+    background-image: url('..//imagini/photo1713471251.jpeg'); 
+    filter: blur(5px) brightness(0.7); 
+    z-index: -1;
+}
+
+
+img{
+    width: 20px;
+    height: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+iframe{
+    
+   padding: 20px;
+    float: right;
+    width: 500px;
+    height: 300px;
+    
+}
+
+audio{
+    float: right;
+}
+
+h2,ul{
+    font-size: 20px;
+}
+iframe{
+    position: absolute;
+  right: 20px;
+}
+audio{
+  position: absolute;
+ left: 900px;
+  bottom: 20px;
+}
